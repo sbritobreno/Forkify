@@ -1,0 +1,30 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Forkify web application",
+  "mainHtml": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbritobreno/Forkify.git"
+  },
+  "author": "Breno Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbritobreno/Forkify/issues"
+  },
+  "homepage": "https://github.com/sbritobreno/Forkify",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "core-js": "^3.29.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
