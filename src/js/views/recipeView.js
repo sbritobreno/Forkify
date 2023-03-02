@@ -1,9 +1,11 @@
 import icons from 'url:../../img/icons.svg';
-import {Fraction} from 'fractional';
+import { Fraction } from 'fractional';
 
 class RecipeView {
   #parentElement = document.querySelector('.recipe');
   #data;
+  #errorMessage = 'We could not find that recipe. Please try another one!';
+  #message = '';
 
   render(data) {
     this.#data = data;
@@ -24,8 +26,42 @@ class RecipeView {
         </svg>
       </div>
     `;
-    this.#parentElement.innerHTML = '';
+    this.#clear();
     this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
+
+  renderError(message = this.#errorMessage) {
+    const markup = `
+          <div class="error">
+            <div>
+              <svg>
+                <use href="${icons}#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>
+    `;
+    this.#clear();
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
+
+  renderMessage(message = this.#message) {
+    const markup = `
+          <div class="message">
+            <div>
+              <svg>
+                <use href="${icons}#icon-smile"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>
+    `;
+    this.#clear();
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
+
+  addHandlerRender(handler) {
+    ['hashChange', 'load'].forEach(ev => window.addEventListener(ev, handler));
   }
 
   #generateMarkup() {
@@ -45,7 +81,7 @@ class RecipeView {
               <use href="${icons}#icon-clock"></use>
             </svg>
             <span class="recipe__info-data recipe__info-data--minutes">${
-                this.#data.cookingTime
+              this.#data.cookingTime
             }</span>
             <span class="recipe__info-text">minutes</span>
           </div>
@@ -54,7 +90,7 @@ class RecipeView {
               <use href="${icons}#icon-users"></use>
             </svg>
             <span class="recipe__info-data recipe__info-data--people">${
-                this.#data.servings
+              this.#data.servings
             }</span>
             <span class="recipe__info-text">servings</span>
 
@@ -98,7 +134,7 @@ class RecipeView {
           <p class="recipe__directions-text">
             This recipe was carefully designed and tested by
             <span class="recipe__publisher">${
-                this.#data.publisher
+              this.#data.publisher
             }</span>. Please check out
             directions at their website.
           </p>
@@ -122,7 +158,9 @@ class RecipeView {
     <svg class="recipe__icon">
       <use href="${icons}#icon-check"></use>
     </svg>
-    <div class="recipe__quantity">${ing.quantity ? new Fraction(ing.quantity).toString() : ''}</div>
+    <div class="recipe__quantity">${
+      ing.quantity ? new Fraction(ing.quantity).toString() : ''
+    }</div>
     <div class="recipe__description">
       <span class="recipe__unit">${ing.unit}</span>
       ${ing.description}
