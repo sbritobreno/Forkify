@@ -18,6 +18,8 @@ async function controlRecipes() {
     if (!id) return;
     recipeView.renderSpinner();
 
+    resultsView.update(model.getSearchResultsPage);
+
     // Loading recipe
     await model.loadRecipe(id);
 
@@ -50,9 +52,15 @@ function controlPagination(goToPage) {
   pagiantionView.render(model.state.search);
 }
 
+function controlServings(newServings) {
+  model.updateServings(newServings);
+  recipeView.render(model.state.recipe);
+}
+
 function init() {
   recipeView.addHandlerRender(controlRecipes);
+  recipeView.addHandlerUpdateServings(controlServings);
   searchView.addHandlerSearch(controlSearchResults);
-  pagiantionView.addHandlerClick(controlPagination)
+  pagiantionView.addHandlerClick(controlPagination);
 }
 init();
