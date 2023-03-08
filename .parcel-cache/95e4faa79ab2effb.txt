@@ -1,4 +1,4 @@
-7935
+7936
 86C:\Users\breno\Desktop\Forkify\node_modules\@babel\helper-validator-identifier\LICENSE133220691560942598 0
 80C:\Users\breno\Desktop\Forkify\node_modules\css-tree\lib\syntax\node\Brackets.js133220691564752097 0
 76C:\Users\breno\Desktop\Forkify\node_modules\core-js\full\iterator\indexed.js133220725288064689 0
@@ -8,7 +8,7 @@
 53C:\Users\breno\Desktop\Forkify\node_modules\@mischnic133220691555267869 1
 58C:\Users\breno\Desktop\Forkify\node_modules\csso\lib\clean133220691574110707 1
 75C:\Users\breno\Desktop\Forkify\node_modules\lmdb\dependencies\lz4\lib\lz4.c133220691571371668 0
-35C:\Users\breno\Desktop\Forkify\dist133226812868293809 1
+35C:\Users\breno\Desktop\Forkify\dist133227796381151973 1
 69C:\Users\breno\Desktop\Forkify\node_modules\svgo\plugins\prefixIds.js133220691572039901 0
 61C:\Users\breno\Desktop\Forkify\node_modules\@msgpackr-extract133221678457671603 1
 77C:\Users\breno\Desktop\Forkify\node_modules\caniuse-lite\data\features\ime.js133220691581028838 0
@@ -54,7 +54,7 @@
 81C:\Users\breno\Desktop\Forkify\node_modules\caniuse-lite\data\features\gamepad.js133220691580589829 0
 72C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\string\sub.js133220725297917663 0
 79C:\Users\breno\Desktop\Forkify\node_modules\core-js\features\typed-array\set.js133220725295673319 0
-41C:\Users\breno\Desktop\Forkify\index.html133223098032907359 0
+41C:\Users\breno\Desktop\Forkify\index.html133227790286634262 0
 75C:\Users\breno\Desktop\Forkify\node_modules\caniuse-lite\data\regions\UG.js133220691583350149 0
 58C:\Users\breno\Desktop\Forkify\node_modules\css-select\lib133220691571411565 1
 67C:\Users\breno\Desktop\Forkify\node_modules\core-js\features\regexp133220725299958300 1
@@ -119,7 +119,7 @@
 79C:\Users\breno\Desktop\Forkify\node_modules\core-js\full\dom-exception\index.js133220725287352238 0
 71C:\Users\breno\Desktop\Forkify\node_modules\core-js\es\instance\some.js133220725296073496 0
 88C:\Users\breno\Desktop\Forkify\node_modules\core-js\internals\object-set-prototype-of.js133220725292456089 0
-48C:\Users\breno\Desktop\Forkify\src\js\helpers.js133221697472628523 0
+48C:\Users\breno\Desktop\Forkify\src\js\helpers.js133227783488181066 0
 71C:\Users\breno\Desktop\Forkify\node_modules\@parcel\transformer-svg\src133220691566544770 1
 70C:\Users\breno\Desktop\Forkify\node_modules\@parcel\workers\src\bus.js133220691564887633 0
 38C:\Users\breno\Desktop\Forkify\src\img133204358462896587 1
@@ -141,7 +141,7 @@
 39C:\Users\breno\Desktop\Forkify\src\sass133204358462926506 1
 77C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\string\includes.js133220725286237654 0
 91C:\Users\breno\Desktop\Forkify\node_modules\@parcel\transformer-html\src\HTMLTransformer.js133220691568711411 0
-46C:\Users\breno\Desktop\Forkify\src\js\model.js133226812213088106 0
+46C:\Users\breno\Desktop\Forkify\src\js\model.js133227792409140168 0
 49C:\Users\breno\Desktop\Forkify\src\sass\main.scss133204358462926506 0
 80C:\Users\breno\Desktop\Forkify\node_modules\core-js\proposals\using-statement.js133220725301215453 0
 83C:\Users\breno\Desktop\Forkify\node_modules\core-js\full\instance\is-well-formed.js133220725289075754 0
@@ -215,12 +215,12 @@
 76C:\Users\breno\Desktop\Forkify\node_modules\core-js\features\bigint\index.js133220725286858440 0
 52C:\Users\breno\Desktop\Forkify\src\sass\_upload.scss133204358462926506 0
 63C:\Users\breno\Desktop\Forkify\node_modules\base-x\package.json133220691564147898 0
-47C:\Users\breno\Desktop\Forkify\src\js\config.js133223123162318477 0
+47C:\Users\breno\Desktop\Forkify\src\js\config.js133227793986266575 0
 72C:\Users\breno\Desktop\Forkify\node_modules\sass\types\value\number.d.ts133220693575210612 0
 100C:\Users\breno\Desktop\Forkify\node_modules\@parcel\watcher\prebuilds\win32-x64\node.napi.glibc.node133220691575914140 0
 54C:\Users\breno\Desktop\Forkify\node_modules\terser\lib133220691575325314 1
 77C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\instance\filter.js133220725276496204 0
-51C:\Users\breno\Desktop\Forkify\src\js\controller.js133226810828999917 0
+51C:\Users\breno\Desktop\Forkify\src\js\controller.js133227796282739792 0
 75C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\instance\with.js133220725302005163 0
 86C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\string\virtual\trim-left.js133220725300317340 0
 65C:\Users\breno\Desktop\Forkify\node_modules\posthtml\lib\index.js133220691563131723 0
@@ -229,11 +229,22 @@
 69C:\Users\breno\Desktop\Forkify\node_modules\resolve-from\package.json133220691560952561 0
 72C:\Users\breno\Desktop\Forkify\node_modules\@parcel\transformer-json\src133220691566277459 1
 92C:\Users\breno\Desktop\Forkify\node_modules\caniuse-lite\data\features\css-featurequeries.js133220691578705467 0
-43C:\Users\breno\Desktop\Forkify\src\js\views133226047936835600 1
+43C:\Users\breno\Desktop\Forkify\src\js\views133226815459154848 1
 91C:\Users\breno\Desktop\Forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.h133220691577693781 0
 73C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\object\keys.js133220725290585971 0
 90C:\Users\breno\Desktop\Forkify\node_modules\core-js\modules\esnext.symbol.pattern-match.js133220725274959255 0
 60C:\Users\breno\Desktop\Forkify\src\js\views\bookmarksView.js133226809495992053 0
+74C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\regexp\index.js133220725287688953 0
+78C:\Users\breno\Desktop\Forkify\node_modules\css-tree\lib\syntax\node\Number.js133220691576902463 0
+61C:\Users\breno\Desktop\Forkify\node_modules\sass\package.json133220693575051057 0
+88C:\Users\breno\Desktop\Forkify\node_modules\utility-types\dist\aliases-and-guards.js.map133220691564127954 0
+62C:\Users\breno\Desktop\Forkify\node_modules\yaml\dist\index.js133220691564312570 0
+60C:\Users\breno\Desktop\Forkify\src\js\views\addRecipeView.js133227795085468050 0
+78C:\Users\breno\Desktop\Forkify\node_modules\core-js\modules\esnext.map.from.js133220725273605975 0
+74C:\Users\breno\Desktop\Forkify\node_modules\nth-check\lib\compile.d.ts.map133220691564352447 0
+79C:\Users\breno\Desktop\Forkify\node_modules\core-js\internals\proxy-accessor.js133220725293252658 0
+101C:\Users\breno\Desktop\Forkify\node_modules\@parcel\watcher\prebuilds\darwin-x64\node.napi.glibc.node133220691574471789 0
+52C:\Users\breno\Desktop\Forkify\node_modules\msgpackr133220691575046214 1
 72C:\Users\breno\Desktop\Forkify\node_modules\posthtml-render\changelog.md133220691563281349 0
 95C:\Users\breno\Desktop\Forkify\node_modules\core-js\internals\create-non-enumerable-property.js133220725267651135 0
 84C:\Users\breno\Desktop\Forkify\node_modules\css-select\lib\pseudo-selectors\index.js133220691564187799 0
@@ -630,16 +641,6 @@
 83C:\Users\breno\Desktop\Forkify\node_modules\core-js\full\async-iterator\to-array.js133220725298438211 0
 75C:\Users\breno\Desktop\Forkify\node_modules\svgo\lib\svgo\css-class-list.js133220691569105241 0
 54C:\Users\breno\Desktop\Forkify\node_modules\micromatch133220691562075659 1
-74C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\regexp\index.js133220725287688953 0
-78C:\Users\breno\Desktop\Forkify\node_modules\css-tree\lib\syntax\node\Number.js133220691576902463 0
-61C:\Users\breno\Desktop\Forkify\node_modules\sass\package.json133220693575051057 0
-88C:\Users\breno\Desktop\Forkify\node_modules\utility-types\dist\aliases-and-guards.js.map133220691564127954 0
-62C:\Users\breno\Desktop\Forkify\node_modules\yaml\dist\index.js133220691564312570 0
-78C:\Users\breno\Desktop\Forkify\node_modules\core-js\modules\esnext.map.from.js133220725273605975 0
-74C:\Users\breno\Desktop\Forkify\node_modules\nth-check\lib\compile.d.ts.map133220691564352447 0
-79C:\Users\breno\Desktop\Forkify\node_modules\core-js\internals\proxy-accessor.js133220725293252658 0
-101C:\Users\breno\Desktop\Forkify\node_modules\@parcel\watcher\prebuilds\darwin-x64\node.napi.glibc.node133220691574471789 0
-52C:\Users\breno\Desktop\Forkify\node_modules\msgpackr133220691575046214 1
 73C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\string\virtual133220725300611887 1
 58C:\Users\breno\Desktop\Forkify\node_modules\yaml\util.d.ts133220691575016295 0
 70C:\Users\breno\Desktop\Forkify\node_modules\core-js\internals\a-set.js133220725263763882 0
@@ -697,7 +698,7 @@
 70C:\Users\breno\Desktop\Forkify\node_modules\source-map-js\CHANGELOG.md133220693574123514 0
 63C:\Users\breno\Desktop\Forkify\node_modules\@parcel\workers\src133220691574110707 1
 63C:\Users\breno\Desktop\Forkify\node_modules\terser\CHANGELOG.md133220691575605171 0
-57C:\Users\breno\Desktop\Forkify\dist\index.e37f48ea.js.map133226812868293809 0
+57C:\Users\breno\Desktop\Forkify\dist\index.e37f48ea.js.map133227796381141993 0
 62C:\Users\breno\Desktop\Forkify\node_modules\msgpackr\pack.d.ts133220691575016295 0
 94C:\Users\breno\Desktop\Forkify\node_modules\caniuse-lite\data\features\intersectionobserver.js133220691581236107 0
 96C:\Users\breno\Desktop\Forkify\node_modules\lmdb\node_modules\node-addon-api\tools\check-napi.js133220691574561530 0
@@ -1733,10 +1734,10 @@
 67C:\Users\breno\Desktop\Forkify\node_modules\source-map\package.json133220691560912678 0
 66C:\Users\breno\Desktop\Forkify\node_modules\path-type\package.json133220691560952561 0
 79C:\Users\breno\Desktop\Forkify\node_modules\core-js\full\instance\find-index.js133220725276665758 0
-65C:\Users\breno\Desktop\Forkify\node_modules\@lezer\common\LICENSE133220691563607978 0
-60C:\Users\breno\Desktop\Forkify\node_modules\is-json\index.js133220691562682690 0
 106C:\Users\breno\Desktop\Forkify\node_modules\@parcel\core\test\fixtures\custom-format-mismatch\package.json133220691579635129 0
 75C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\object\create.js133220725267720938 0
+65C:\Users\breno\Desktop\Forkify\node_modules\@lezer\common\LICENSE133220691563607978 0
+60C:\Users\breno\Desktop\Forkify\node_modules\is-json\index.js133220691562682690 0
 85C:\Users\breno\Desktop\Forkify\node_modules\@parcel\core\src\requests\EntryRequest.js133220691577171759 0
 89C:\Users\breno\Desktop\Forkify\node_modules\caniuse-lite\data\features\permissions-api.js133220691582339406 0
 81C:\Users\breno\Desktop\Forkify\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133220691576502190 0
@@ -2218,8 +2219,8 @@
 76C:\Users\breno\Desktop\Forkify\node_modules\nth-check\lib\esm\index.d.ts.map133220691565312644 0
 75C:\Users\breno\Desktop\Forkify\node_modules\ordered-binary\rollup.config.js133220691563061909 0
 70C:\Users\breno\Desktop\Forkify\node_modules\picomatch\lib\picomatch.js133220691563002071 0
-65C:\Users\breno\Desktop\Forkify\node_modules\picomatch\lib\scan.js133220691563543036 0
 101C:\Users\breno\Desktop\Forkify\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\Makefile133220691567302754 0
+65C:\Users\breno\Desktop\Forkify\node_modules\picomatch\lib\scan.js133220691563543036 0
 64C:\Users\breno\Desktop\Forkify\node_modules\htmlnano\lib\modules133220691571062498 1
 77C:\Users\breno\Desktop\Forkify\node_modules\core-js\modules\es.object.seal.js133220725271470443 0
 75C:\Users\breno\Desktop\Forkify\node_modules\core-js\full\promise\finally.js133220725276536105 0
@@ -3962,11 +3963,11 @@
 84C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\instance\last-index-of.js133220725290705652 0
 65C:\Users\breno\Desktop\Forkify\node_modules\core-js\actual\string133220725300542076 1
 74C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\instance\map.js133220725291256351 0
+73C:\Users\breno\Desktop\Forkify\node_modules\core-js\full\weak-map\from.js133220725282420289 0
 70C:\Users\breno\Desktop\Forkify\node_modules\core-js\features\map\of.js133220725292545861 0
+74C:\Users\breno\Desktop\Forkify\node_modules\core-js\features\math\expm1.js133220725275977593 0
 80C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\instance\pad-start.js133220725292864999 0
 86C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\dom-collections\for-each.js133220725281572588 0
-74C:\Users\breno\Desktop\Forkify\node_modules\core-js\features\math\expm1.js133220725275977593 0
-73C:\Users\breno\Desktop\Forkify\node_modules\core-js\full\weak-map\from.js133220725282420289 0
 70C:\Users\breno\Desktop\Forkify\node_modules\core-js\es\string\match.js133220725291666570 0
 97C:\Users\breno\Desktop\Forkify\node_modules\core-js\proposals\object-getownpropertydescriptors.js133220725292386276 0
 75C:\Users\breno\Desktop\Forkify\node_modules\core-js\stable\instance\push.js133220725293352383 0
@@ -7930,7 +7931,7 @@
 59C:\Users\breno\Desktop\Forkify\node_modules\.bin\terser.ps1133220691610464353 0
 56C:\Users\breno\Desktop\Forkify\dist\favicon.8b2f57bf.png133226053542116720 0
 55C:\Users\breno\Desktop\Forkify\dist\Forkify.3464ddca.js133220693596582187 0
-53C:\Users\breno\Desktop\Forkify\dist\index.e37f48ea.js133226812868253905 0
+53C:\Users\breno\Desktop\Forkify\dist\index.e37f48ea.js133227796381112074 0
 54C:\Users\breno\Desktop\Forkify\dist\index.f7626f62.css133226053541977097 0
 58C:\Users\breno\Desktop\Forkify\dist\index.f7626f62.css.map133226053542007053 0
-46C:\Users\breno\Desktop\Forkify\dist\index.html133226049913370804 0
+46C:\Users\breno\Desktop\Forkify\dist\index.html133227796380354979 0
